@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Floating Bar */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding-right: 15px;
+}
+#FloatBar {
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #000000;
+	color: #FFF;
+	width: auto;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: -16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	-webkit-box-shadow: 1px 1px 10px 5px #000000;
+	box-shadow: 1px 1px 10px 5px #000000;
+}
+
+#LogoFloat {
+	left: 0;
+	top: 0;
+	position: fixed;
+	text-wrap: normal;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 0px;
+	margin-top: -40px;
+}
+#LogoTitle a:link {color:#FFFFFF; text-decoration: none;}
+#LogoTitle a:visited {color:#FFFFFF; text-decoration: none;}
+#LogoTitle a:hover {color:#FFFFFF; text-decoration: none;}
+#LogoTitle a:active {color:#FFFFFF; text-decoration: none;}
+#LogoTitle {
+	font-size: 24pt;
+	font-weight: 900;
+	z-index: 1000;
+	position: relative;
+	padding-left: 1px;
+	width: 205px;
+	color: #FFF;
+	margin-bottom: -5px;
+	text-shadow: 2px 2px 5px #000000;
+}
+#navigation a:link {color:#0016FF; text-decoration: none;}
+#navigation a:visited {color: #0016FF;}
+#navigation a:hover {color: #6774FF; text-decoration: blink;}
+#navigation a:active {color: #6774FF;}
+#navigation {
+	z-index: 1001;
+	margin-top: -28px;
+	margin-left: 215px;
+	font-size: x-large;
+	padding-bottom: 5px;
+	padding-top: 0px;
+	
+}
+/*Logo*/
+#diamond-narrow {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid blue;
+	position: relative;
+	top: -50px;
+	z-index: 900;
+}
+#diamond-narrow:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid blue;
+	z-index: 900;
+}
+#diamond2-narrow {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid yellow;
+	position: relative;
+	top: -50px;
+	z-index: 900;
+}
+#diamond2-narrow:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid yellow;
+	z-index: 900;
+}
+/*Page Content*/
+#container1 {
+	padding: 10px;
+	margin-top: 90px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #000000;
+	background-color: #FFF;
+}
+hr {
+	border: 0px none;
+	border-top: 2px dotted #000;
+	color: #fff;
+	background-color: #fff;
+	height: 5px;
+	width: auto;
+}
+#Mobile_Switcher {
+	padding-left: 5px;
+	padding-bottom: 20px;
+	color: #000;
+}

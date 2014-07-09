@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd"
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-web-app-status-bar-style" content="black">
+<script src="Mobile Menu.js"></script>
+<link href="Style.css" rel="stylesheet" type="text/css">
+<script src="Respond.min.js"></script>
+<title>TimeScape Inc</title>
+<!--Displayed as tab-->
+		<script type="text/javascript" src="lib/js/external/_oldies/jquery-1.3.min.js"></script>
+		<!--<script type="text/javascript" src="lib/js/external/jquery-1.6.2.min.js"></script>-->
+		
+		<!-- jQuery Plugin scripts -->
+		<script type="text/javascript" src="lib/js/external/jquery.easing.1.3.min.js"></script>
+		<script type="text/javascript" src="lib/js/external/jquery.mousewheel.min.js"></script>
+		
+		<!-- Slider Kit scripts -->
+		<script type="text/javascript" src="lib/js/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script>
+        <script type="text/javascript" src="lib/js/sliderkit/addons/sliderkit.delaycaptions.1.1.pack.js"></script>
+        <script type="text/javascript" src="lib/js/sliderkit/addons/sliderkit.counter.1.0.pack.js"></script>
+        <script type="text/javascript" src="lib/js/sliderkit/addons/sliderkit.timer.1.0.pack.js"></script>
+        <script type="text/javascript" src="lib/js/sliderkit/addons/sliderkit.imagefx.1.0.pack.js"></script>
+        
+        		<!-- Slider Kit launch -->
+		<script type="text/javascript">
+			$(window).load(function(){ //$(window).load() must be used instead of $(document).ready() because of Webkit compatibility				
+
+				// Photo slider > 1 click
+				
+				$(".photosgallery-captions").sliderkit({
+					auto:true,
+					autospeed:5000,
+					circular:true,
+					keyboard:true,
+					shownavitems:4,
+					panelclick:true,
+					panelfx:"sliding",
+					panelfxspeed:1000,
+					panelfxeasing:"easeInOutExpo",
+					delaycaptions:true
+				});
+			});	
+		</script>
+        
+		<!-- Slider Kit styles -->
+		<link rel="stylesheet" type="text/css" href="lib/css/sliderkit-core.css" media="screen, projection">
+		<link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos.css" media="screen, projection">
+		
+		<!-- Slider Kit compatibility -->
+		<!--[if IE 6]><link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos-ie6.css" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos-ie7.css" /><![endif]-->
+		<!--[if IE 8]><link rel="stylesheet" type="text/css" href="lib/css/sliderkit-demos-ie8.css" /><![endif]-->
+
+<body bgcolor="00FFFF">
+<div id="FloatBar"><div id="LogoFloat"><div id="diamond-narrow"><div id="diamond2-narrow"><div id="diamond-narrow"></div></div></div></div><div id="LogoTitle"><a href="">TimeScape Inc</a></div><nav id="navigation"><ul><b><li><a href="">Home</a></li><li><a href="">Link 2</a></li><li><a href="">Link 3</a></b></li></ul></nav></div></div>
+<div id="container1"><center><h2>PAGE HEADER</h2><hr>
+<!--Start of Slideshow-->
+<div class="sliderkit photosgallery-captions">
+					<div class="sliderkit-nav">
+						
+						<div class="sliderkit-nav-clip">
+							<ul>
+								<li><a href="#" rel="nofollow" title="1"><img src="lib/images/photos/sample-01.jpg" alt="[Alternative text]" width="100" height="75"></a></li>
+								<li><a href="#" rel="nofollow" title="2"><img src="lib/images/photos/sample-02.jpg" alt="[Alternative text]" width="100" height="75"></a></li>
+								<li><a href="#" rel="nofollow" title="3"><img src="lib/images/photos/sample-03.jpg" alt="[Alternative text]"  width="100" height="75"></a></li>
+								<li><a href="#" rel="nofollow" title="4L"><img src="lib/images/photos/sample-04.jpg" alt="[Alternative text]"  width="100" height="75"></a></li>
+							</ul>
+						</div>
+						<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a rel="nofollow" href="#" title="Previous line"><span>Previous line</span></a></div>
+						<div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a rel="nofollow" href="#" title="Next line"><span>Next line</span></a></div>
+						<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev"><a rel="nofollow" href="#" title="Previous photo"><span>Previous photo</span></a></div>
+						<div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next"><a rel="nofollow" href="#" title="Next photo"><span>Next photo</span></a></div>
+					</div>
+					<div class="sliderkit-panels">
+						<div class="sliderkit-panel">
+							<img src="lib/images/photos/sample-01.jpg" alt="[Alternative text]" width="520" height="347">
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Welcome</h4>
+									<p>This is an example text!</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
+						</div>
+						<div class="sliderkit-panel">
+							<img src="lib/images/photos/sample-02.jpg" alt="[Alternative text]" width="463" height="693">
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Page 2</h4>
+									<p>This is an example text!</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
+						</div>
+						<div class="sliderkit-panel">
+							<img src="lib/images/photos/sample-03.jpg" alt="[Alternative text]" width="600" height="401">
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Page 3</h4>
+									<p>This is an example text!</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
+                        						<div class="sliderkit-panel">
+							<img src="lib/images/photos/sample-04.jpg" alt="[Alternative text]" width="631" height="422">
+							<div class="sliderkit-panel-textbox">
+								<div class="sliderkit-panel-text">
+									<h4>Page 4</h4>
+									<p>This is an example text!</p>
+								</div>
+								<div class="sliderkit-panel-overlay"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+<hr></center>&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim, enim ut eleifend ultricies, lectus risus imperdiet metus, non pellentesque mi erat vitae libero. Donec id erat varius, tempor nulla quis, facilisis erat. Quisque cursus elit non condimentum convallis. Mauris tellus dolor, lobortis sit amet porta vitae, blandit luctus turpis. Nunc et sollicitudin nunc, id convallis felis. Sed tempus, leo ac condimentum imperdiet, tellus lectus tempor massa, sed vestibulum erat sem vel lorem. Nunc in purus tincidunt, tempor mi non, iaculis nibh. Aliquam gravida pulvinar arcu, nec eleifend nisi aliquam et. Duis pulvinar dapibus condimentum. In in mi tellus. Maecenas at ipsum urna. Nulla hendrerit mi augue, sed venenatis nisi tincidunt id. Cras et dictum tellus. Quisque gravida tortor in tellus tincidunt euismod. Maecenas turpis tortor, aliquam eget justo in, gravida convallis velit.
+<p>
+&emsp;Aliquam eget blandit magna. Phasellus pellentesque fermentum neque sed pharetra. Sed eu rutrum enim. Proin dictum ipsum vel tempor viverra. Sed venenatis, ipsum sit amet dignissim convallis, eros magna rhoncus sem, ac adipiscing ligula turpis eu augue. Pellentesque quis libero ac libero fringilla eleifend. Sed cursus malesuada nisl at adipiscing. Integer malesuada adipiscing augue, non sagittis eros commodo eget. Mauris nec ipsum vitae libero pharetra egestas. Suspendisse potenti.</div><div id="Mobile_Switcher"><a href="">Mobile</a> | Desktop</div>
+<center>TimeScape Inc &copy; 2007-2014
+</body>
+</html>
